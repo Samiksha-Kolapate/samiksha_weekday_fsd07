@@ -16,3 +16,41 @@ On branch master
 No commits yet
 
 nothing to commit (create/copy files and use "git add" to track)
+
+Acer@DESKTOP-8KF8K4C MINGW64 /d/samiksha_weekday_fsd07 (master)
+$ ^C
+
+Acer@DESKTOP-8KF8K4C MINGW64 /d/samiksha_weekday_fsd07 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        java.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Acer@DESKTOP-8KF8K4C MINGW64 /d/samiksha_weekday_fsd07 (master)
+$ git add java.txt
+
+Acer@DESKTOP-8KF8K4C MINGW64 /d/samiksha_weekday_fsd07 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   java.txt
+
+
+Acer@DESKTOP-8KF8K4C MINGW64 /d/samiksha_weekday_fsd07 (master)
+$ git commit -m "Initial commit"
+[master (root-commit) 491f306] Initial commit
+ 1 file changed, 18 insertions(+)
+ create mode 100644 java.txt
+
+Acer@DESKTOP-8KF8K4C MINGW64 /d/samiksha_weekday_fsd07 (master)
+$
